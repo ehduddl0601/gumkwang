@@ -1,0 +1,75 @@
+@import url(./sub.css);
+
+#gnb_bar ul li:nth-child(2) a{
+    background: #fff;
+    color: #222;
+}
+#content{
+    width: 1200px;
+    height: 1900px;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+#content h2{
+    font-size: 36px;
+    text-align: center;
+    font-weight: 500;
+}
+#content > p{
+    margin-top: 15px;
+    font-size: 24px;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+#content #year{
+    width: 400px;
+    float: left;
+    text-align: center;
+}
+#year h1{
+    font-size: 60px;
+    margin-top: 20px;
+    color: #888;
+}
+#year p{
+    font-size: 18px;
+    color: #888;
+}
+#year ul li{
+    display: inline-block;
+    width: 400px;
+}
+#content #list{
+    float: left;
+    width: 800px;
+}
+#list_wrap{
+    width: 1200px;
+    margin-top: 70px;
+    border-top: 2px solid #ddd;
+    padding-top: 20px;
+}
+#list{
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+}
+#list li{
+    display: inline-block;
+    margin: 5px 0;
+}
+#list li:first-child{
+    margin-top: 40px;
+}
+#list span{
+    float: left;
+    width: 80px;
+    margin-right: 50px;
+    color: #555;
+}
+#list p{
+    float: left;
+    width: 650px;
+    color: #555;
+}

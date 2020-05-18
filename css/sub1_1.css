@@ -1,0 +1,54 @@
+@import url(./sub.css);
+  /* content */
+  #gnb_bar ul li:nth-child(1) a{
+    background: #fff;
+    color: #222;
+}
+  #content{
+      width: 1200px;
+      height: 900px;
+      margin: 0 auto;
+      margin-top: 100px;
+  }
+  #content h2{
+      font-size: 36px;
+      text-align: center;
+      font-weight: 500;
+  }
+  #content > p{
+      margin-top: 15px;
+      font-size: 30px;
+      text-align: center;
+      font-weight: 500;
+      margin-bottom: 30px;
+  }
+  #content > p > span{
+      color: #044EC1;
+  }
+  #hello{
+      width: 750px;
+      float: left;
+      box-sizing: border-box;
+      padding: 40px 0;
+      color: #222;
+      font-size: 16px;
+  }
+  #hello p {
+    margin-bottom: 40px;
+}
+  #ceo{
+      width: 450px;
+      float: left;
+      padding: 40px;
+      box-sizing: border-box;
+  }
+  #ceo p{
+      text-align: right;
+      margin-top: 30px;
+      font-size: 20px;
+  }
+  #ceo span{
+      font-weight: 600;
+      font-size: 26px;
+      margin: 0 10px;
+  }

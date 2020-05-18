@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>금광기업</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/38816b2aa5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <header>
+            <h1 id="logo"><a href="./index.html"><img src="./img/logo.png" alt=""></a></h1>
+            <nav id="gnb">
+                <ul>
+                    <li class="gnb_li">
+                        <a href="#">기업소개</a>
+                        <ul id="sub_gnb">
+                            <li><a href="./sub1_1.html">인사말</a></li>
+                            <li><a href="./sub1_2.html">연혁</a></li>
+                            <li><a href="#">기업정신</a></li>
+                            <li><a href="#">조직도</a></li>
+                            <li><a href="#">수상경력</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">CI</a></li>
+                            <li><a href="#">BI</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">사업분야</a>
+                        <ul id="sub_gnb">
+                            <li><a href="#">토목</a></li>
+                            <li><a href="#">건축</a></li>
+                            <li><a href="#">플랜트/환경</a></li>
+                            <li><a href="#">해외산업</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">분양정보</a>
+                        <ul id="sub_gnb">
+                            <li><a href="#">분양NEWS</a></li>
+                            <li><a href="#">아파트</a></li>
+                            <li><a href="#">기타분양</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">알림마당</a>
+                        <ul id="sub_gnb">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">채용정보</a></li>
+                            <li><a href="#">입사지원서</a></li>
+                            <li><a href="#">브로슈어</a></li>
+                            <li><a href="#">협력업체안내</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button id="toggle" title="클릭하면 전체 메뉴가 열립니다."><i class="fas fa-bars"></i></button>
+                    </li>
+                </ul>
+            </nav>
+            <div id="visual_text">
+                <h2>인간과 자연이<br>상생하는 그린테크</h2>
+                <h3>Human & Nature GreenTech</h3>
+                <p>거대한 대자연의 힘을 유익한 에너지로<br>
+                바꿔 인간의 삶을 풍요롭게 만들어온<br>
+                기업. 금광기업의 60년 친환경 기술이<br>
+                자연의 가치를 극대화하고 있습니다.</p>
+            </div>
+            <div id="popup_menu">
+                <ul>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">기업소개</a>
+                    <ul id="sub_menu">
+                        <li><a href="./sub1_1.html">인사말</a></li>
+                        <li><a href="./sub1_2.html">연혁</a></li>
+                        <li><a href="#">기업정신</a></li>
+                        <li><a href="#">조직도</a></li>
+                        <li><a href="#">수상경력</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                        <li><a href="#">CI</a></li>
+                        <li><a href="#">BI</a></li>
+                    </ul>
+                  </li>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">사업분야</a>
+                    <ul id="sub_menu">
+                        <li><a href="#">토목</a></li>
+                        <li><a href="#">건축</a></li>
+                        <li><a href="#">플랜트/환경</a></li>
+                        <li><a href="#">해외산업</a></li>
+                    </ul>
+                  </li>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">분양정보</a>
+                    <ul id="sub_menu">
+                        <li><a href="#">분양NEWS</a></li>
+                        <li><a href="#">아파트</a></li>
+                        <li><a href="#">기타분양</a></li>
+                    </ul>
+                  </li>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">알림마당</a>
+                    <ul id="sub_menu">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">입사지원서</a></li>
+                        <li><a href="#">브로슈어</a></li>
+                        <li><a href="#">협력업체안내</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <button id="btn_close">X</button>
+                  </li>
+                </ul>
+              </div>
+        </header>
+    </div>
+    <div id="project">
+        <h1>PROJECT</h1>
+        <p>친환경 녹색기술을 개척하는 기업, 금광기업이 또 한 번 앞서 갑니다.</p>
+        <div id="list_wrap">
+            <ul id="project_list">
+                <li>
+                    <div id="list_img">
+                        <img src="./img/project1.jpg" alt="">
+                    </div>
+                    <h2>CIVIL WORKS</h2>
+                    <p>고창-담양 고속도로<br>(장성-담양)</p>
+                </li>
+                <li>
+                    <div id="list_img">
+                        <img src="./img/project2.jpg" alt="">
+                    </div>
+                    <h2>CIVIL WORKS</h2>
+                    <p>영산강 살리기 6공<br>(나주 승촌보)</p>
+                </li>
+                <li>
+                    <div id="list_img">
+                        <img src="./img/project3.jpg" alt="">
+                    </div>
+                    <h2>CIVIL WORKS</h2>
+                    <p>여수경도<br>해양관광단지조성</p>
+                </li>
+                <li>
+                    <div id="list_img">
+                        <img src="./img/project4.jpg" alt="">
+                    </div>
+                    <h2>HOUSINGS ARCHITECTURAL WORKS</h2>
+                    <p>광주CGI센터</p>
+                </li>
+                <li>
+                    <div id="list_img">
+                        <img src="./img/project5.jpg" alt="">
+                    </div>
+                    <h2>HOUSING ARCHITECTURAL WORKS</h2>
+                    <p>광주과학기술원</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="area_wrap">
+        <div id="area">
+            <h1>BUSINESS AREA</h1>
+            <p>친환경 녹색기술을 개척하는 기업, 금광기업이 또 한 번 앞서갑니다.</p>
+            <div id="area_section">
+                <a href="#a">
+                    <div id="area1">
+                        <div id="area_text">
+                            <h1>토목</h1>
+                            <p>대한민국의 경제, 대한민국의 생활을 풍요롭게</p>
+                            <span>CIVIL WORKS</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#a">
+                    <div id="area2">
+                        <div id="area_text">                
+                            <h1>건축</h1>
+                            <p>대한민국의 도시를 더욱 편리하고 쾌적하게</p>
+                            <span>HOUSINGS<br>ARCHITECTURAL<br>WORKS</span>
+                        </div>
+                    </div>
+                </a>
+                <a href="#a">
+                    <div id="area3">
+                        <div id="area_text">
+                            <h1>플랜트</h1>
+                            <p>우리가 사는 생활환경을 쾌적하게</p>
+                            <span>PLANT WORKS</span>
+                        </div> 
+                    </div> 
+                </a>
+            </div>
+        </div>
+    </div>
+    <div id="news">
+        <h1>NEWS</h1>
+        <p>친환경 녹색기술을 개척하는 기업, 금광기업이 또 한 번 앞서갑니다.</p>
+        <div id="news_wrap">
+            <ul id="news_list">
+                <li>
+                    <h3>금광기업 & 호남대학교 산학협력교류 및 기술이전 협약서 체결</h3>
+                    <p>금광기업(주)&호남대학교 산학협력교류 및 기술이전 협약서 체결   일시 : 2015년 5월 20일 11:30분 장소 : 호남대학교 교무위원 회의실</p>
+                    <span>2020-01-08</span>
+                </li>
+                <li>
+                    <h3>필리핀 농업용수 개발사업 착공식</h3>
+                    <p>필리핀 농업용수 개발사업<br>
+                        1. 공사개요 / 파사댐 (H=36.7m, L=194m)
+                        여수로 및 유수전환공. 파사관개수로 (6조 L=20.2km) / 진입도로 포장 (L=3.4km) / 설계공사비 21,170백만원</p>
+                    <span>2020-01-08</span>
+                </li>
+                <li>
+                    <h3>2016년도 협력업체 등록공고</h3>
+                    <p>2016년도 협력업체 등록공고 미래의 건설을 선도하는 금광기업(주)에서 2016년 건설동반자로 함께 발전해 나아갈 우수한 협력업체를 모집하오니 많은 참여바랍니다.</p>
+                    <span>2020-01-08</span>
+                </li>
+                <li>
+                    <h3>2015년도 협력업체 등록공고</h3>
+                    <p>2015년도 협력업체 등록공고 미래의 건설을 선도하는 금광기업(주)에서 2015년 건설동반자로 함께 발전해 나아갈 우수한 협력업체를 모집하오니 많은 참여바랍니다.</p>
+                    <span>2020-01-08</span>
+                </li>
+                <li>
+                    <h3>2014년도 협력업체 등록공고</h3>
+                    <p>2014년도 협력업체 등록공고 미래의 건설을 선도하는 금광기업(주)에서 2014년 건설동반자로 함께 발전해 나아갈 우수한 협력업체를 모집하오니 많은 참여바랍니다.</p>
+                    <span>2020-01-08</span>
+                </li>
+                <li>
+                    <h3>2013년도 협력업체 등록공고</h3>
+                    <p>2013년도 협력업체 등록공고 미래의 건설을 선도하는 금광기업(주)에서 2013년 건설동반자로 함께 발전해 나아갈 우수한 협력업체를 모집하오니 많은 참여바랍니다.</p>
+                    <span>2020-01-08</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="info">
+        <div id="box">
+            <p class="title">Recruit</p>
+            <h1>채용안내</h1>
+            <p class="text">금광기업의 미래가 될 창의적인 인재를 <br>찾습니다</p>
+            <a href="#">
+                <p>More View</p>
+                <img src="./img/point.png" alt="">
+            </a>
+        </div>
+        <div id="box">
+            <p class="title">Certification</p>
+            <h1>인증 / 특허</h1>
+            <p class="text">금광기업은 끊임없는 기술개발과 혁신으로 노력합니다
+            </p>
+            <a href="#">
+                <p>More View</p>
+                <img src="./img/point.png" alt="">
+            </a>
+        </div>
+        <div id="box">
+            <p class="title">plan of sale</p>
+            <h1>분양계획</h1>
+            <p class="text">금광기업은 끊임없는 기술개발과 혁신으로 노력합니다</p>
+            <a href="#">
+                <p>More View</p>
+                <img src="./img/point.png" alt="">
+            </a>
+        </div>
+    </div>
+    <div id="footer_wrap">
+        <div id="footer">
+            <a><img src="./img/f_logo.png" alt=""></a>
+            <ul>
+                <li>서울특별시 마포구 마포대로 163 (서울신용보증재단), 10층</li>
+                <li>Copyright ⓒ 2020 GUMGWANG. LTD. All Rights Reserved.</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $('#gnb .gnb_li').hover(
+                function(){
+                    $(this).children('#sub_gnb').css('display', 'block');
+                    $(this).css('background', '#1746a4');
+                },
+                function(){
+                    $(this).children('#sub_gnb').css('display', 'none');
+                    $(this).css('background', 'none');
+                });
+            var img_num = 0;
+            var img_width = 410;
+            function change_img(num){
+                img_num = num;
+                img_width = 410;
+                $('#project_list').css('marginLeft', -(img_width * img_num) + 'px');
+            }
+            setInterval(function(){
+                if(img_num > 2){
+                    img_num = 0;
+                }
+                change_img(img_num);
+                img_num++;
+            }, 3000)
+
+            $('#toggle').click(function(){
+            $('#popup_menu').toggle();
+            });
+            $('#btn_close').click(function(){
+                $('#popup_menu').hide();
+            });
+
+            var img_num2 = 0;
+            var img_width2 = 420;
+            function change_img2(num){
+                img_num2 = num;
+                img_width2 = 420;
+                $('#news_list').css('marginLeft', -(img_width2 * img_num2) + 'px');
+            }
+            setInterval(function(){
+                if(img_num2 > 3){
+                    img_num2 = 0;
+                }
+                change_img2(img_num2);
+                img_num2++;
+            }, 3000)
+        });
+    </script>
+</body>
+</html>

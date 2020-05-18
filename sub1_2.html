@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>금광기업</title>
+    <link rel="stylesheet" href="./css/sub1_2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/38816b2aa5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <header>
+            <h1 id="logo"><a href="./index.html"><img src="./img/logo.png" alt=""></a></h1>
+            <nav id="gnb">
+                <ul>
+                    <li class="gnb_li">
+                        <a href="#">기업소개</a>
+                        <ul id="sub_gnb">
+                            <li><a href="./sub1_1.html">인사말</a></li>
+                            <li><a href="#">연혁</a></li>
+                            <li><a href="#">기업정신</a></li>
+                            <li><a href="#">조직도</a></li>
+                            <li><a href="#">수상경력</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">CI</a></li>
+                            <li><a href="#">BI</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">사업분야</a>
+                        <ul id="sub_gnb">
+                            <li><a href="#">토목</a></li>
+                            <li><a href="#">건축</a></li>
+                            <li><a href="#">플랜트/환경</a></li>
+                            <li><a href="#">해외산업</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">분양정보</a>
+                        <ul id="sub_gnb">
+                            <li><a href="#">분양NEWS</a></li>
+                            <li><a href="#">아파트</a></li>
+                            <li><a href="#">기타분양</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">알림마당</a>
+                        <ul id="sub_gnb">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">채용정보</a></li>
+                            <li><a href="#">입사지원서</a></li>
+                            <li><a href="#">브로슈어</a></li>
+                            <li><a href="#">협력업체안내</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button id="toggle" title="클릭하면 전체 메뉴가 열립니다."><i class="fas fa-bars"></i></button>
+                    </li>
+                </ul>
+            </nav>
+            <div id="title">
+                <h1>기업소개</h1>
+                <p>인간과 자연이 조화로운 그린테크, 금광기업이 한발 앞서 준비합니다</p>
+            </div>
+            <div id="gnb_bar">
+                <ul>
+                    <li><a href="./sub1_1.html">인사말</a></li>
+                    <li><a href="#">연혁</a></li>
+                    <li><a href="#">기업정신</a></li>
+                    <li><a href="#">조직도</a></li>
+                    <li><a href="#">수상경력</a></li>
+                    <li><a href="#">찾아오시는 길</a></li>
+                    <li><a href="#">CI</a></li>
+                    <li><a href="#">BI</a></li>
+                </ul>
+            </div>
+              <div id="popup_menu">
+                <ul>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">기업소개</a>
+                    <ul id="sub_menu">
+                        <li><a href="./sub1_1.html">인사말</a></li>
+                        <li><a href="#">연혁</a></li>
+                        <li><a href="#">기업정신</a></li>
+                        <li><a href="#">조직도</a></li>
+                        <li><a href="#">수상경력</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                    </ul>
+                  </li>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">사업분야</a>
+                    <ul id="sub_menu">
+                        <li><a href="#">토목</a></li>
+                        <li><a href="#">건축</a></li>
+                        <li><a href="#">플랜트/환경</a></li>
+                        <li><a href="#">해외산업</a></li>
+                    </ul>
+                  </li>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">분양정보</a>
+                    <ul id="sub_menu">
+                        <li><a href="#">분양NEWS</a></li>
+                        <li><a href="#">아파트</a></li>
+                        <li><a href="#">기타분양</a></li>
+                    </ul>
+                  </li>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">알림마당</a>
+                    <ul id="sub_menu">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">입사지원서</a></li>
+                        <li><a href="#">브로슈어</a></li>
+                        <li><a href="#">협력업체안내</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <button id="btn_close">X</button>
+                  </li>
+                </ul>
+              </div>
+        </header>
+    </div>
+    <div id="content">
+        <h2>연혁</h2>
+        <div id="list_wrap">
+            <!-- 1957 -->
+            <div id="lists">
+                <div id="year">
+                    <ul>
+                        <li>
+                            <h1>1957</h1>
+                            <p>역사의 시작</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="list">
+                    <ul>
+                        <li>
+                            <span>1957.2.22</span>
+                            <p>상호 금광기업주식회사(업종 : 토목, 건축)
+                                <br>본점 광주시 누문동 115번지
+                            </p>
+                        </li>
+                        <li>
+                            <span>1968.3.5</span>
+                            <p>본점이전 광주시 대인동 117번지
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 1970 -->
+            <div id="lists">
+                <div id="year">
+                    <ul>
+                        <li>
+                            <h1>1970</h1>
+                            <p>종합건설기업으로 도약</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="list">
+                    <ul>
+                        <li>
+                            <span>1976.3.8</span>
+                            <p>본점이전 광주광역시 동구 금남로 5가 129번지</p>
+                        </li>
+                        <li>
+                            <span>1981.7.31</span>
+                            <p>전기공사 1종(면허번호 : 73호)</p>
+                        </li>
+                        <li>
+                            <span>1989.11.3</span>
+                            <p>본점이전 전남 곡성군 옥과면 합강리 416-3</p>
+                        </li>
+                        <li>
+                            <span>1989.12.2</span>
+                            <p>포장공사업 면허취득(제207호)</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 1990 -->
+            <div id="lists">
+                <div id="year">
+                    <ul>
+                        <li>
+                            <h1>1990</h1>
+                            <p>일류 기업으로 성장</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="list">
+                    <ul>
+                        <li>
+                            <span>1991.3.30</span>
+                            <p>주택건설 대지조성 사업자 등록(제91-40호)</p>
+                        </li>
+                        <li>
+                            <span>1991.10.15</span>
+                            <p>소방설비공사업(기계 · 전기분야) 면허취득(제91-10호)</p>
+                        </li>
+                        <li>
+                            <span>1992.7.10</span>
+                            <p>물품군납업체 적격판정(제2349651번)</p>
+                        </li>
+                        <li>
+                            <span>1992.12.4</span>
+                            <p>철강재설치공사업 면허취득(제89호)</p>
+                        </li>
+                        <li>
+                            <span>1994.12.10</span>
+                            <p>조경공사업 면허취득 (제53호)</p>
+                        </li>
+                        <li>
+                            <span>1996.7.23</span>
+                            <p>본점이전 전남 화순군 화순읍 만연리 222번지</p>
+                        </li>
+                        <li>
+                            <span>1996.11.13</span>
+                            <p>해외건설업 등록(208호)</p>
+                        </li>
+                        <li>
+                            <span>1997.2.22</span>
+                            <p>ISO 9001/KSA 9001/ENISO 9001 인증획득</p>
+                        </li>
+                        <li>
+                            <span>1997.12.4</span>
+                            <p>산업설비공사업 면허취득(제97-60호)</p>
+                        </li>
+                        <li>
+                            <span>1998.8.29</span>
+                            <p>정보통신공사업 1등급(허가번호 140095호)</p>
+                        </li>
+                        <li>
+                            <span>1999.7.16</span>
+                            <p>ISO 14001/KSA 14001 인증획득</p>
+                        </li>
+                        <li>
+                            <span>1999.8.24</span>
+                            <p>Y2K 인증획득</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 2000 -->
+            <div id="lists">
+                <div id="year">
+                    <ul>
+                        <li>
+                            <h1>2000</h1>
+                            <p>역사의 시작</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="list">
+                    <ul>
+                        <li>
+                            <span>2003.3.31</span>
+                            <p>준설공사업 면허 취득(2003-25-01호)</p>
+                        </li>
+                        <li>
+                            <span>2004.12.2</span>
+                            <p>대기방지 시설업 등록(제7호)</p>
+                        </li>
+                        <li>
+                            <span>2007.11.23</span>
+                            <p>환경신기술 인증 환경부(제236호)</p>
+                        </li>
+                        <li>
+                            <span>2007.12.6</span>
+                            <p>환경신기술 인증 환경부(제239호)</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 2010 -->
+            <div id="lists">
+                <div id="year">
+                    <ul>
+                        <li>
+                            <h1>2010</h1>
+                            <p>세계를 향한 비상</p>
+                        </li>
+                    </ul>
+                </div>
+                <div id="list">
+                    <ul>
+                        <li>
+                            <span>2012.2.8</span>
+                            <p>대표이사 기명철 취임</p>
+                        </li>
+                        <li>
+                            <span>2013.1.</span>
+                            <p>가스시설시공업 제1종 면허 취득(제2013-23-01호)</p>
+                        </li>
+                        <li>
+                            <span>2015.1.</span>
+                            <p>전남 화순군 화순읍 충의로85-1으로 본사 이전<br>시설물유지관리업 면허 취득(제2015-29-01호)</p>
+                        </li>
+                        <li>
+                            <span>2017.1.</span>
+                            <p>창립 60주년<br>건설3사(남광토건,극동건설,금광기업) 그룹비젼 선포</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!-- 2020 -->
+            <div id="lists">
+                <div id="year">
+                    <ul>
+                        <li>
+                            <h1>2020</h1>
+                            <p>초일류 기업의 완성</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer_wrap">
+        <div id="footer">
+            <a><img src="./img/f_logo.png" alt=""></a>
+            <ul>
+                <li>서울특별시 마포구 마포대로 163 (서울신용보증재단), 10층</li>
+                <li>Copyright ⓒ 2020 GUMGWANG. LTD. All Rights Reserved.</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $('#gnb .gnb_li').hover(
+            function(){
+            $(this).children('#sub_gnb').css('display', 'block');
+            $(this).css('background', '#1746a4');
+            },
+            function(){
+            $(this).children('#sub_gnb').css('display', 'none');
+            $(this).css('background', 'none');
+            });
+            
+            $('#toggle').click(function(){
+            $('#popup_menu').toggle();
+            });
+            $('#btn_close').click(function(){
+                $('#popup_menu').hide();
+            });
+        });
+    </script>
+</body>
+</html>
