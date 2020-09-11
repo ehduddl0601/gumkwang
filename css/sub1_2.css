@@ -6,7 +6,7 @@
 }
 #content{
     width: 1200px;
-    height: 1900px;
+    height: 2000px;
     margin: 0 auto;
     margin-top: 100px;
 }
@@ -57,7 +57,7 @@
 }
 #list li{
     display: inline-block;
-    margin: 5px 0;
+    margin: 8px 0;
 }
 #list li:first-child{
     margin-top: 40px;

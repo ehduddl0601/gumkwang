@@ -46,13 +46,13 @@ a{
     /* background: #1746a4; */
 } 
 #gnb > ul >li > a{
-    padding: 0 20px;
+    padding: 0 10px;
     font-size: 18px;
     color: #fff;
     font-weight: bold;
 }
 #gnb > ul > li:nth-child(5){
-    margin-left: 270px;
+    margin-left: 240px;
 }
 #toggle{
     color: #fff;
