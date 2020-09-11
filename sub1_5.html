@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>금광기업</title>
+    <link rel="stylesheet" href="./css/sub1_5.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700;800&family=Nanum+Myeongjo:wght@400;700;800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/38816b2aa5.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <header>
+            <h1 id="logo"><a href="./index.html"><img src="./img/logo.png" alt=""></a></h1>
+            <nav id="gnb">
+                <ul>
+                    <li class="gnb_li">
+                        <a href="./sub1_1.html">기업소개</a>
+                        <ul id="sub_gnb">
+                            <li><a href="./sub1_1.html">인사말</a></li>
+                            <li><a href="./sub1_2.html">연혁</a></li>
+                            <li><a href="./sub1_3.html">기업정신</a></li>
+                            <li><a href="./sub1_4.html">조직도</a></li>
+                            <li><a href="./sub1_5.html">수상경력</a></li>
+                            <li><a href="#">찾아오시는길</a></li>
+                            <li><a href="#">CI</a></li>
+                            <li><a href="#">BI</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">사업분야</a>
+                        <ul id="sub_gnb">
+                            <li><a href="#">토목</a></li>
+                            <li><a href="#">건축</a></li>
+                            <li><a href="#">플랜트/환경</a></li>
+                            <li><a href="#">해외산업</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">분양정보</a>
+                        <ul id="sub_gnb">
+                            <li><a href="#">분양NEWS</a></li>
+                            <li><a href="#">아파트</a></li>
+                            <li><a href="#">기타분양</a></li>
+                        </ul>
+                    </li>
+                    <li class="gnb_li">
+                        <a href="#">알림마당</a>
+                        <ul id="sub_gnb">
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">채용정보</a></li>
+                            <li><a href="#">입사지원서</a></li>
+                            <li><a href="#">브로슈어</a></li>
+                            <li><a href="#">협력업체안내</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <button id="toggle" title="클릭하면 전체 메뉴가 열립니다."><i class="fas fa-bars"></i></button>
+                    </li>
+                </ul>
+            </nav>
+            <div id="title">
+                <h1>기업소개</h1>
+                <p>인간과 자연이 조화로운 그린테크, 금광기업이 한발 앞서 준비합니다</p>
+            </div>
+            <div id="gnb_bar">
+                <ul>
+                    <li><a href="./sub1_1.html">인사말</a></li>
+                    <li><a href="./sub1_2.html">연혁</a></li>
+                    <li><a href="./sub1_3.html">기업정신</a></li>
+                    <li><a href="./sub1_4.html">조직도</a></li>
+                    <li><a href="./sub1_5.html">수상경력</a></li>
+                    <li><a href="#">찾아오시는 길</a></li>
+                    <li><a href="#">CI</a></li>
+                    <li><a href="#">BI</a></li>
+                </ul>
+            </div>
+              <div id="popup_menu">
+                <ul>
+                  <li id="popup_row">
+                    <a href="./sub1_1.html" id="sub_title">기업소개</a>
+                    <ul id="sub_menu">
+                        <li><a href="./sub1_1.html">인사말</a></li>
+                        <li><a href="./sub1_2.html">연혁</a></li>
+                        <li><a href="./sub1_3.html">기업정신</a></li>
+                        <li><a href="./sub1_4.html">조직도</a></li>
+                        <li><a href="./sub1_5.html">수상경력</a></li>
+                        <li><a href="#">찾아오시는길</a></li>
+                    </ul>
+                  </li>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">사업분야</a>
+                    <ul id="sub_menu">
+                        <li><a href="#">토목</a></li>
+                        <li><a href="#">건축</a></li>
+                        <li><a href="#">플랜트/환경</a></li>
+                        <li><a href="#">해외산업</a></li>
+                    </ul>
+                  </li>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">분양정보</a>
+                    <ul id="sub_menu">
+                        <li><a href="#">분양NEWS</a></li>
+                        <li><a href="#">아파트</a></li>
+                        <li><a href="#">기타분양</a></li>
+                    </ul>
+                  </li>
+                  <li id="popup_row">
+                    <a href="#" id="sub_title">알림마당</a>
+                    <ul id="sub_menu">
+                        <li><a href="#">공지사항</a></li>
+                        <li><a href="#">채용정보</a></li>
+                        <li><a href="#">입사지원서</a></li>
+                        <li><a href="#">브로슈어</a></li>
+                        <li><a href="#">협력업체안내</a></li>
+                    </ul>
+                  </li>
+                  <li>
+                    <button id="btn_close">X</button>
+                  </li>
+                </ul>
+              </div>
+        </header>
+    </div>
+    <div id="content">
+        <h2>수상경력</h2>
+        <p>새로운 내일을 준히하는 힘<br>
+            금광기업이 그 무한한 힘으로 더욱 풍요로운 내일을 만들어 갑니다.</p>
+        <div id="table">
+            <div id="award">
+                <img src="./img/award.jpg" alt="">
+            </div>
+            <div id="left">
+                <div class="row">
+                    <div class="ll">
+                        <p>1995</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>우수시공업체 선정 / 광주 첨단과학산업단지 조성</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>1996</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>석탑산업훈장</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>1997</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>표창장(임대주택 공급으로 주거생활 안정 기여)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>1998</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>납세 성실이행 재정경제부장관 감사패</li>
+                            <li>제일은행 광주지점 신축 광주광역시장 표창장 / 제2순환도로</li>
+                            <li>광주광역시 지하철건설본부 표창장</li>
+                            <li>‘97 우수건설업자 지정 공고 / 해양수산부장관</li>
+                            <li>행정자치부장관 표창장 / 서해안고속도로</li>
+                            <li>광주광역시장 표창장 / 광주도시철도 1호선 1-3공구</li>
+                            <li>광양시장 표창장 / ‘98 우수건설업체 선정</li>
+                            <li>전라남도지사 표창장(부실시공 방지 경쟁력 향상)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>1999</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>행정자치부 국무총리 표창장(납세의무 성실 이행)</li>
+                            <li>우수건설업자 지정 / 전라남도지사</li>
+                            <li>신용평가서 / 기업어음, 신용등급</li>
+                            <li>ISO14001 인증</li>
+                            <li>신용평가 결과 통보서</li>
+                            <li>Y2K 인증</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2000</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>품질보증체제 인증서 / ISO9001 지정서 /</li>
+                            <li>우리말 쓰기 캠페인</li>
+                            <li>신용평가서 / 기업어음, 신용등급</li>
+                            <li>2000년 품질관리경진대회 금상</li>
+                            <li>함평군수 표창장(함평하수·축산폐수·분뇨처리 품질관리자 우수지구) 고시지구·유천지구</li>
+                            <li>원주지방국토관리청 표창장(건설교통업무 발전 기여</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2001</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>우수건설업자 지정 신용평가서 / 기업어음, 신용등급</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2002</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>대한주택공사 우수시공패 / 마산 삼계아파트</li>
+                            <li>환경경영체계 인증서 / KSA14001, ISO14001</li>
+                            <li>우수건설업자 지정서(농업기반공사)</li>
+                            <li>우수건설업자 지정서(경북포항교육청)</li>
+                            <li>신안군수 감사패</li>
+                            <li>산학협동 협약서(송원대학)</li>
+                            <li>건설교통부장관 표창장 / 건설 CALS · EC</li>
+                            <li>익산지방국토관리청 표창장</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2003</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>KT 협력업체 인증서(KT 전남본부장)</li>
+                            <li>우수건설업자 지정서(농업기반공사)</li>
+                            <li>환경경영시스템 인증서(KSA9001:2001, ISO9001:2000)</li>
+                            <li>토목공사 하자관리협회 회원 인증서</li>
+                            <li>Dun & Bradstreet – D&B</li>
+                            <li>환경부장관 표창장</li>
+                            <li>건설교통부장관 표창장(건설교통업무 발전 기여)</li>
+                            <li>전라남도지사 표창장(지역경제 발전 활성화 기여 삼포-산호)</li>
+                            <li>광주광역시장 표창장(도시철도 1호선)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="right">
+                <div class="row">
+                    <div class="ll">
+                        <p>2004</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>우수건설업자 지정서(농업기반공사)</li>
+                            <li>농업기반공사 우수시공패(봉정·영마·내리·운대지구)</li>
+                            <li>우수건설업자 지정서(전라남도지사)</li>
+                            <li>광주광역시장 표창장</li>
+                            <li>대통령권한대행 국무총리 포장증(광주지하철 건설)</li>
+                            <li>대한주택공사 격려장(용인보라 현장 관리 우수)</li>
+                            <li>광주광역시장 표창장(제2순환도로)</li>
+                            <li>전남체신청장 표창장</li>
+                            <li>공정거래위원회 강철규 표창장</li>
+                            <li>농업기반공사 상장</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2005</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>우수건설업자 지정서(농업기반공사)</li>
+                            <li>우수건설업자 지정서(도로 및 교통시설 분야) (광주광역시장)</li>
+                            <li>우수건설업자 지정서(금마-연무대) (익산지방국토관리청)</li>
+                            <li>광주광역시장 표창장(지역체육 진흥)</li>
+                            <li>예산군수 감사패</li>
+                            <li>화순군수 감사패(지방세 납세의무 성실 이행)</li>
+                            <li>강진국민장학재단 감사패(인재육성기금 조성 동참)</li>
+                            <li>전라남도 표창장(전남건설 발전 공헌)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2006</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>KT 우수건설사 인증서(KT 자산개발단장)</li>
+                            <li>수원시장 표창장(수원장애인복지관 건립 개관)</li>
+                            <li>울산광역시 표창패(지역 건설산업 발전)</li>
+                            <li>대한토지신탁(주) 감사패(군산 미륭동 및 미아시장 사업)</li>
+                            <li>대통령 노무현 포장증(국도27호선 건설)</li>
+                            <li>건설교통부장관 표창장</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2007</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>백운장학기금 기탁사은증(백운장학회 이사장)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2008</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>완도군수 공로패(노화-보길 준공)</li>
+                            <li>대한민국 토목·건축대상 토목시설물</li>
+                            <li>도로교통시설부문 최우수상</li>
+                            <li>국토해양부장관 표창</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2009</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>한국농어촌공사 우수시공패(홍보지구 결성3공구)</li>
+                            <li>우수건설업자 지정서(전라남도)</li>
+                            <li>대한적십자사 포장증(적십자사업 발전 기여)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2010</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>우수건설업자 지정서(한국농어촌공사)</li>
+                            <li>한국농어촌공사 우수시공패(광의지구와 오마지구)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2011</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>광주광역시장 표창패(행복한창조도시광주)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2014</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>전라남도지사 표창장(상생협력 기여)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2015</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>국토교통부 익산지방국토관리청 표창장
+                                (국도13호선 해남 남송천교)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2017</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>건설공제조합 감사패(건설공제조합이사장)</li>
+                            <li>함평군수감사패(연안유휴지조성사업)</li>
+                            <li>대한적십자사 포장증(적십자사업 발전 기여)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2018</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>한국농어촌공사우수시공패(미학지구배수개선사업)</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="ll">
+                        <p>2019</p>
+                    </div>
+                    <div class="rr">
+                        <ul>
+                            <li>한국농어촌공사 안전품질경진대회 안전부문 대상(삽교방조제 배수갑문 확장사업)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer_wrap">
+        <div id="footer">
+            <a><img src="./img/f_logo.png" alt=""></a>
+            <ul>
+                <li>서울특별시 마포구 마포대로 163 (서울신용보증재단), 10층</li>
+                <li>Copyright ⓒ 2020 GUMGWANG. LTD. All Rights Reserved.</li>
+            </ul>
+        </div>
+    </div>
+    <script>
+        $(function(){
+            $('#gnb .gnb_li').hover(
+            function(){
+            $(this).children('#sub_gnb').css('display', 'block');
+            $(this).css('background', '#1746a4');
+            },
+            function(){
+            $(this).children('#sub_gnb').css('display', 'none');
+            $(this).css('background', 'none');
+            });
+            
+            $('#toggle').click(function(){
+            $('#popup_menu').toggle();
+            });
+            $('#btn_close').click(function(){
+                $('#popup_menu').hide();
+            });
+        });
+    </script>
+</body>
+</html>
